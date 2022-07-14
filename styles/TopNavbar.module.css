@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@100;400&display=swap');
+
+.navbar{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    padding: 2rem 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leftSection{
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+.listContainer{
+    display: flex;
+    align-items: center;
+    list-style-type: none
+}
+
+.listContainer li{
+    margin: 0 5px;
+    color: #05034E;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.rightSection{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.login{
+    padding: 5px;
+    background-color: transparent;
+    font-family: 'Open Sans', sans-serif;
+    font-size: .8rem;
+    font-weight: bold;
+    border: none;
+    color: #05034E;
+}
+
+.schedule{
+    padding: 9px 16px;
+    background-color: transparent;
+    font-family: 'Open Sans', sans-serif;
+    font-size: .8rem;
+    font-weight: bold;
+    border: 1px solid #5856CE;
+    color: #5856CE;
+    border-radius: 5px;
+}
+
+.try{
+    padding: 9px 16px;
+    background-color: transparent;
+    font-family: 'Open Sans', sans-serif;
+    font-size: .8rem;
+    font-weight: bold;
+    border: none;
+    color: #ffffff;
+    background-color:#5856CE ;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 760px) {
+    .navbar{
+        width: 100%;
+        height: 4rem;
+        display: flex;
+        width:550px
+    }
+    .listContainer{
+        display: none;
+    }
+
+    .logo{
+        display:block;
+        scale: 1.5;
+    }
+
+    .login{
+        display: none;
+    }
+    .schedule{
+        display: none;
+    }
+    .trybtn{
+        display: block;
+    }
+  }

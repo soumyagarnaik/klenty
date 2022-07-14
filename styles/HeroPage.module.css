@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Paytone+One&family=Poppins:wght@100;400&display=swap');
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 30rem;
+}
+
+.textContainer{
+    width: 50%;
+    padding: 4rem 0 0 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+}
+.title{
+    font-family: 'Paytone One', sans-serif;
+    color: #5856CE;
+    line-height: 1.2rem;
+}
+.headtitle{
+    font-family: 'Paytone One', sans-serif;
+    color: #120155;
+    line-height: 1rem;
+}
+.imageContainer{
+    width:50%;
+    padding: 4rem 4rem 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+
+}
+
+.description{
+    font-size: 1rem;
+    font-weight: 500;
+    width: 30rem;
+}
+
+.button{
+    padding: 9px 16px;
+    background-color: transparent;
+    font-family: 'Open Sans', sans-serif;
+    font-size: .8rem;
+    font-weight: bold;
+    border: none;
+    color: #ffffff;
+    background-color:#5856CE ;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        height: 60rem;
+    }
+    .textContainer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin-bottom: 2rem;
+    }
+    .imageContainer{
+        width:130%;
+        height: 60%;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+  }
